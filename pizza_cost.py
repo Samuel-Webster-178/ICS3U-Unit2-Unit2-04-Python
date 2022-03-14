@@ -20,7 +20,7 @@ def main():
     total = sub_total + (sub_total * constants.HST)
 
     # output
-    print("The cost for a {0} inch pizza is ${1:,.2f}".format(diameter, total))
+    print("\nThe cost for a {0} inch pizza is ${1:,.2f}".format(diameter, total))
     print("\nDone.")
 
 
